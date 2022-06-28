@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conway's Game of Life</title>
+    <style>
+        .content-center{
+            display: flex;
+            justify-content: center;
+            margin: 0 0 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class='content-center' style='margin: 0;'>
+        <img src='bg.png' style='width: 100px; height: 100px;'/>
+    </div>
+    <h4 style='text-align: center; margin: 4px 0 12px 0;'><a href='https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%96%D0%B8%D0%B7%D0%BD%D1%8C%C2%BB'>Conway's Game of Life</a></h4>
+    <div class='content-center'>   
+        <input placeholder='height'/>
+        <input placeholder='width'/>
+        <button id='create'>create field</button>
+        <button id='step'>step</button>
+        <button id='simulation'>start</button>
+        <br/>
+    </div>
+    <div  class='content-center'>
+        <div id='field'></div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
